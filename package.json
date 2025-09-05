@@ -1,7 +1,13 @@
 {
   "name": "html-webpack-plugin",
-  "version": "3.2.0",
+  "version": "3.2.0-lineaje-01",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "description": "Simplifies creation of HTML files to serve your webpack bundles",
   "author": "Charles Blaxland <charles.blaxland@gmail.com> (https://github.com/ampedandwired)",
   "main": "index.js",
@@ -65,7 +71,10 @@
   ],
   "bugs": "https://github.com/jantimon/html-webpack-plugin/issues",
   "homepage": "https://github.com/jantimon/html-webpack-plugin",
-  "repository": "https://github.com/jantimon/html-webpack-plugin.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/html-webpack-plugin"
+  },
   "engines": {
     "node": ">=6.9"
   },
